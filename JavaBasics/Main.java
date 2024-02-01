@@ -28,5 +28,37 @@ public class Main {
             System.out.println("Number: "+num);
             num++;
         }while(num<=3);
+
+        // Conditional Statements
+
+        //If statement:
+        int x = 10;
+        if(x>5){
+            System.out.println("X is greater than 5");
+        }
+
+        //If-Else Statement:
+        int num1=7;
+        if (num1 % 2 == 0) {
+            System.out.println("Even");
+        }else
+        {
+            System.out.println("Odd");
+        }
+
+        //Nested if-Else:
+        int urage = 18;
+        if (urage>=18) {
+            if (urage < 21) {
+                System.out.println("You're eligible but not for alcohol");
+            } else {
+                System.out.println("You are eligible for everything");
+            }
+            }
+            else
+            {
+                System.out.println("You're not eligible");
+            }
+        }
     }
-}
+
