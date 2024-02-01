@@ -71,7 +71,7 @@ public class Main {
                 case 2:
                     System.out.println("Tuesday");
                     break;
-               //...
+               //....
                 default:
                     System.out.println("Invalid day");
             }
